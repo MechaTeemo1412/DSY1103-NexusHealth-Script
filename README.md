@@ -19,10 +19,12 @@ Nexus Health es un ecosistema de microservicios diseñado para reducir el ausent
 | 5 | `ms-auditoria`    | 8085   | Trazabilidad de envíos y generación de reportes. |
 
 ## Tecnologías Utilizadas
-- Java 17 / Spring Boot 3.x
+- Maven
+- Java 17 / Spring Boot 4.0.6
+- Spring Web
 - Spring Data JPA + Hibernate
-- Base de Datos relacional (MySQL/Oracle)
-- WebClient / Feign Client para comunicación inter-servicios
+- Oracle Driver
+- Spring Reactive Web
 - Lombok para reducción de código repetitivo
 
 ## Cómo Ejecutar el Proyecto
