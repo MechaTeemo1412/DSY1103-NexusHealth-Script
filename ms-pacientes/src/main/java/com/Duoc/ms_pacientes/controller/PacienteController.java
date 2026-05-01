@@ -29,16 +29,4 @@ public class PacienteController {
                 .map(paciente -> new ResponseEntity<>(paciente,HttpStatus.OK))
                 .orElse(new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
-
-    @PostMapping
-    public ResponseEntity<Paciente> crearPaciente(@Valid @RequestBody Paciente paciente){
-        Paciente nuevoPaciente = pacienteService.guardarPaciente(paciente);
-        return new ResponseEntity<>(nuevoPaciente,HttpStatus.CREATED);
-    }
-
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Void> eliminarPaciente(@PathVariable Long id){
-        pacienteService.eliminarPaciente(id);
-        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-    }
 }
