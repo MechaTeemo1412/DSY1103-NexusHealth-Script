@@ -2,10 +2,11 @@ package com.Duoc.ms_pacientes.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
+import org.hibernate.annotations.Immutable;
 
 @Entity
-
-@Table(name="pacientes")
+@Immutable
+@Table(name="PACIENTES")
 
 public class Paciente {
     @Id

@@ -21,12 +21,4 @@ public class PacienteService {
     public Optional<Paciente> obtenerPorId(Long id){
         return pacienteRepository.findById(id);
     }
-
-    public Paciente guardarPaciente(Paciente paciente){
-        return pacienteRepository.save(paciente);
-    }
-
-    public void eliminarPaciente(Long id){
-        pacienteRepository.deleteById(id);
-    }
 }
