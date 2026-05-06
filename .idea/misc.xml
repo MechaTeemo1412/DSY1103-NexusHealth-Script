@@ -4,15 +4,14 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/DSY1103-NexusHealth-Script/ms-agenda/pom.xml" />
-        <option value="$PROJECT_DIR$/DSY1103-NexusHealth-Script/ms-auditoria/pom.xml" />
-        <option value="$PROJECT_DIR$/DSY1103-NexusHealth-Script/ms-pacientes/pom.xml" />
-        <option value="$PROJECT_DIR$/DSY1103-NexusHealth-Script/ms-orquestador/pom.xml" />
-        <option value="$PROJECT_DIR$/DSY1103-NexusHealth-Script/ms-comunicaciones/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-agenda/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-examenes/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-auditoria/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-pacientes/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-orquestador/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-comunicaciones/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="24" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="24" project-jdk-type="JavaSDK" />
 </project>
