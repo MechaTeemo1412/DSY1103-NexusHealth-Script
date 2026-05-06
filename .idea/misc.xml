@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/DSY1103-NexusHealth-Script/ms-orquestador/pom.xml" />
         <option value="$PROJECT_DIR$/DSY1103-NexusHealth-Script/ms-comunicaciones/pom.xml" />
         <option value="$PROJECT_DIR$/ms-agenda/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-pacientes/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-orquestador/pom.xml" />
       </list>
     </option>
   </component>

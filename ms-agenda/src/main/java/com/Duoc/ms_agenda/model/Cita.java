@@ -1,34 +1,26 @@
 package com.Duoc.ms_agenda.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import org.hibernate.annotations.Immutable;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 @Entity
-@Table(name="CITAS")
+@Immutable
+@Table(name="TB_AGENDA_CITAS")
 public class Cita {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="ID_CITA")
     private Long id;
 
-    @Column(name="ID_PACIENTE", nullable = false)
+    @Column(name="ID_PACIENTE")
     private Long idPaciente;
 
-    @Column(name="FECHA_HORA", nullable = false)
+    @Column(name="FECHA_HORA_CITA")
     private LocalDateTime fechaHora;
 
-    @Column(name="ESTADO_CITA", nullable = false)
-    private String estado;
-
-    @OneToMany(mappedBy = "cita", cascade = CascadeType.ALL)
-    private List<ExamenMedico> examenes;
-
+    // Aquí aplicamos tu Enum de forma segura
+    @Enumerated(EnumType.STRING)
+    @Column(name="ESTADO_CITA", length = 50)
+    private EstadoCita estadoCita;
 }
