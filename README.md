@@ -52,5 +52,12 @@ El ecosistema ha sido estabilizado en un conjunto de 6 microservicios independie
 
 ---
 
-## 💾 Configuración de Persistencia Cloud (Oracle Autonomous DB)
-El ecosistema se integra directamente con la capa gratuita de **Oracle Cloud Infrastructure (OCI)** utilizando un Wallet de seguridad digital cifrada.
+## Cómo Ejecutar el Proyecto
+1. Clonar el repositorio: `git clone https://github.com/MechaTeemo1412/DSY1103-NexusHealth-Script.git`
+2. Configurar credenciales de Base de Datos en los archivos `application.properties` de cada microservicio.
+3. Ejecutar cada microservicio usando: `./mvnw spring-boot:run`
+
+---
+
+## Estado del Proyecto
+🔄 En desarrollo — EP2 2026
