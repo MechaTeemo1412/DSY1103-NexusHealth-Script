@@ -4,28 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce547980-563e-4057-9b60-b8774325be53" name="Changes" comment="">
+    <list default="true" id="77bdf7d0-b2c1-4185-9626-a5b6fc88e1ea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-orquestador/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-agenda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-agenda/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auditoria/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auditoria/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auditoria/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auditoria/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examenes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-pacientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-pacientes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,10 +55,7 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="3DMSVf7ytnS6hNFaWEJeQXAIHxy" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="3DpSft82Dt0F9jchT8mGPQqEH3f" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,17 +71,16 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.MsAgendaApplication.executor": "Run",
+    "Spring Boot.MsAuditoriaApplication.executor": "Run",
     "Spring Boot.MsExamenesApplication.executor": "Run",
-    "Spring Boot.MsOrquestadorApplication (1).executor": "Run",
-    "Spring Boot.MsPacientesApplication (1).executor": "Run",
+    "Spring Boot.MsNotificacionesApplication.executor": "Run",
+    "Spring Boot.MsOrquestadorApplication.executor": "Run",
+    "Spring Boot.MsPacientesApplication.executor": "Run",
     "git-widget-placeholder": "Alan__Vidal",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -99,23 +93,24 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="hiddenConfigurations">
+    <option name="configurationStatuses">
       <map>
         <entry key="SpringBootApplicationConfigurationType">
           <value>
-            <set>
-              <option value="MsAgendaApplication" />
-              <option value="MsAuditoriaApplication (1)" />
-              <option value="MsExamenesApplication (1)" />
-              <option value="MsOrquestadorApplication (1)" />
-              <option value="MsPacientesApplication (1)" />
-            </set>
+            <map>
+              <entry key="MsAgendaApplication" value="STOPPED" />
+              <entry key="MsAuditoriaApplication" value="STOPPED" />
+              <entry key="MsExamenesApplication" value="STOPPED" />
+              <entry key="MsNotificacionesApplication" value="STOPPED" />
+              <entry key="MsOrquestadorApplication" value="STOPPED" />
+              <entry key="MsPacientesApplication" value="STOPPED" />
+            </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MsOrquestadorApplication (1)">
+  <component name="RunManager" selected="Spring Boot.MsPacientesApplication">
     <configuration name="MsAgendaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ms-agenda" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_agenda.MsAgendaApplication" />
@@ -123,34 +118,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MsAuditoriaApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="MsAuditoriaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ms-auditoria" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_auditoria.MsAuditoriaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MsExamenesApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="MsExamenesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ms-examenes" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_examenes.MsExamenesApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.NexusHealth.ms_examenes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MsOrquestadorApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="MsNotificacionesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms-notificaciones" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_notificaciones.MsNotificacionesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsOrquestadorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ms-orquestador" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_orquestador.MsOrquestadorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MsPacientesApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="MsPacientesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ms-pacientes" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_pacientes.MsPacientesApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.NexusHealth.ms_pacientes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MsPacientesApplication" />
+        <item itemvalue="Spring Boot.MsExamenesApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -162,27 +182,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ce547980-563e-4057-9b60-b8774325be53" name="Changes" comment="" />
-      <created>1778090472089</created>
+      <changelist id="77bdf7d0-b2c1-4185-9626-a5b6fc88e1ea" name="Changes" comment="" />
+      <created>1778977625991</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1778090472089</updated>
-      <workItem from="1778090474179" duration="5504000" />
-      <workItem from="1778975383422" duration="1795000" />
+      <updated>1778977625991</updated>
+      <workItem from="1778977628775" duration="572000" />
+      <workItem from="1778978216495" duration="2111000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="jakarta.persistence.PersistenceException" package="jakarta.persistence" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

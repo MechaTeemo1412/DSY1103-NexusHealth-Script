@@ -3,30 +3,28 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for ms-pacientes" enabled="true">
+      <profile name="Annotation profile for ms-agenda" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="ms-pacientes" />
-        <module name="ms-examenes" />
         <module name="ms-agenda" />
+        <module name="ms-examenes" />
+        <module name="ms-pacientes" />
         <module name="ms-orquestador" />
+        <module name="ms-notificaciones" />
         <module name="ms-auditoria" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ms-comunicaciones" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ms-agenda" options="-parameters" />
       <module name="ms-auditoria" options="-parameters" />
-      <module name="ms-comunicaciones" options="-parameters" />
       <module name="ms-examenes" options="-parameters" />
+      <module name="ms-notificaciones" options="-parameters" />
       <module name="ms-orquestador" options="-parameters" />
       <module name="ms-pacientes" options="-parameters" />
     </option>
