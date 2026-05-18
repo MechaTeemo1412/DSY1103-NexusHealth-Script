@@ -6,6 +6,6 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class NotificacionDTO {
-    private String destinatario; // En este flujo simple, usaremos el RUT como identificador de destino temporal
+    private String destinatario; //usaremos el RUT como identificador de destino temporal
     private String mensaje;
 }

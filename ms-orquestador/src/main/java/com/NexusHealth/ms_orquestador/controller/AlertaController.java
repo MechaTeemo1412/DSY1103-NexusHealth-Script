@@ -13,8 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AlertaController {
     @Autowired
     private AlertaService alertaService;
-
-    @PostMapping("/ejecutar-ahora") // Ideal para la demostración en vivo
+    @PostMapping("/ejecutar-ahora")
     public ResponseEntity<Alerta> dispararProcesoManualmente() {
         return ResponseEntity.ok(alertaService.procesarAlertasDeAgenda());
     }

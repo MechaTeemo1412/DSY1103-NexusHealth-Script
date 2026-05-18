@@ -23,7 +23,7 @@ public class PacienteController {
         return ResponseEntity.ok(service.obtenerTodos());
     }
 
-    @GetMapping("/rut/{rut}") // Path variable semántico para búsqueda específica
+    @GetMapping("/rut/{rut}") // Path variable para búsqueda específica
     public ResponseEntity<Paciente> buscarPorRut(@PathVariable String rut) {
         return ResponseEntity.ok(service.obtenerPorRut(rut));
     }

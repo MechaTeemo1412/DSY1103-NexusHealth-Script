@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
 @Slf4j
 public class ExamenService {
     @Autowired
-    private ExamenRepository repository;
+    private ExamenRepository examenRepository;
 
     @Autowired
     private AuditoriaClient auditoriaClient;
@@ -26,7 +26,7 @@ public class ExamenService {
         log.info("Iniciando actualización de estado para el examen ID: {}", idExamen);
 
         // 1. Buscamos el examen original
-        Examen examen = repository.findById(idExamen)
+        Examen examen = examenRepository.findById(idExamen)
                 .orElseThrow(() -> new RuntimeException("No existe registro para el examen ID: " + idExamen));
 
         // 2. Lógica de negocio: Verificamos si hay un cambio real a "LISTO"
@@ -34,7 +34,7 @@ public class ExamenService {
 
         // 3. Actualizamos el estado
         examen.setEstado(dto.getNuevoEstado());
-        Examen examenActualizado = repository.save(examen);
+        Examen examenActualizado = examenRepository.save(examen);
 
         // 4. Si el examen cambió a LISTO, disparamos una notificación crítica
         if (cambioAListo) {
