@@ -17,20 +17,20 @@ import java.util.Optional;
 @Slf4j
 public class PacienteService {
     @Autowired // Inyección del repositorio de persistencia
-    private PacienteRepository repository;
+    private PacienteRepository pacienteRepository;
 
     @Autowired // Inyección del cliente HTTP para comunicación con otro microservicio
     private AuditoriaClient auditoriaClient;
 
     public List<Paciente> obtenerTodos() {
         log.info("Iniciando extracción de registros de pacientes"); // Log estratégico
-        return repository.findAll();
+        return pacienteRepository.findAll();
     }
 
     public Paciente obtenerPorRut(String rut) {
         log.info("Buscando paciente en sistema por RUT: {}", rut);
 
-        Optional<Paciente> paciente = repository.findByRut(rut);
+        Optional<Paciente> paciente = pacienteRepository.findByRut(rut);
 
         if (paciente.isPresent()) {
             // Comunicación exitosa: Envía log transaccional a ms-auditoria

@@ -23,21 +23,18 @@ public class CitaService {
     @Autowired
     private AuditoriaClient auditoriaClient; // Conexión a ms-auditoria
 
-    // Extrae citas programadas en las próximas 24 horas para ser notificadas
     public List<Cita> obtenerCitasProximas24Horas() {
-        //LocalDateTime ahora = LocalDateTime.now();
-        //LocalDateTime manana = ahora.plusHours(24); // Ventana exacta de 24 horas
+        LocalDateTime ahora = LocalDateTime.now();
+        LocalDateTime manana = ahora.plusHours(24); // Ventana exacta de 24 horas
 
-        //log.info("Buscando citas PROGRAMADAS entre {} y {}", ahora, manana);
+        log.info("Buscando citas PROGRAMADAS entre {} y {}", ahora, manana);
 
-        //List<Cita> citas = repository.findByFechaHoraBetweenAndEstado(ahora, manana, EstadoCita.PROGRAMADA);
+        List<Cita> citas = citaRepository.findByFechaHoraBetweenAndEstado(ahora, manana, EstadoCita.PROGRAMADA);
 
-        // Reporta a auditoría
-        //auditoriaClient.registrarEvento(new NotificacionDTO(
-                //"ms-agenda", "CONSULTA_CITAS_24H", "EXITO", "Citas encontradas: " + citas.size(), LocalDateTime.now()
-        return citaRepository.findAll();
-
-
+        auditoriaClient.registrarEvento(new NotificacionDTO(
+                "ms-agenda", "CONSULTA_CITAS_24H", "EXITO", "Citas encontradas: " + citas.size(), LocalDateTime.now()
+        ));
+        return citas;
     }
 
     // Actualiza el estado de la cita (Ej: cuando el paciente responde "1" en WhatsApp)

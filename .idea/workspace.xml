@@ -7,9 +7,19 @@
     <list default="true" id="77bdf7d0-b2c1-4185-9626-a5b6fc88e1ea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/controller/CitaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/controller/CitaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/model/Cita.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/model/Cita.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/service/CitaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/service/CitaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auditoria/src/main/java/com/NexusHealth/ms_auditoria/service/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auditoria/src/main/java/com/NexusHealth/ms_auditoria/service/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/controller/ExamenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/controller/ExamenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/model/EstadoExamen.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/model/EstadoExamen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/service/ExamenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/service/ExamenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/src/main/java/com/NexusHealth/ms_notificaciones/model/EstadoEnvio.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/src/main/java/com/NexusHealth/ms_notificaciones/model/EstadoEnvio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/src/main/java/com/NexusHealth/ms_notificaciones/service/NotificacionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/src/main/java/com/NexusHealth/ms_notificaciones/service/NotificacionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/controller/AlertaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/controller/AlertaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/dto/NotificacionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/dto/NotificacionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/controller/PacienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/model/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/model/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/service/PacienteService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +155,9 @@
     </configuration>
     <configuration name="MsPacientesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ms-pacientes" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_pacientes.MsPacientesApplication" />
       <extension name="coverage">
         <pattern>
@@ -156,6 +169,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MsAgendaApplication" />
+      <item itemvalue="Spring Boot.MsAuditoriaApplication" />
+      <item itemvalue="Spring Boot.MsNotificacionesApplication" />
+      <item itemvalue="Spring Boot.MsOrquestadorApplication" />
+      <item itemvalue="Spring Boot.MsExamenesApplication" />
+      <item itemvalue="Spring Boot.MsPacientesApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MsPacientesApplication" />
@@ -181,6 +202,7 @@
       <workItem from="1778977628775" duration="572000" />
       <workItem from="1778978216495" duration="2111000" />
       <workItem from="1779033473227" duration="4936000" />
+      <workItem from="1779133886196" duration="6535000" />
     </task>
     <servers />
   </component>

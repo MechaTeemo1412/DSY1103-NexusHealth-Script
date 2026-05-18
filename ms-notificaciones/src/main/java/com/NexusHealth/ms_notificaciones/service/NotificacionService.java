@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @Slf4j
 public class NotificacionService {
     @Autowired
-    private NotificacionRepository repository;
+    private NotificacionRepository notificacionRepository;
 
     @Autowired
     private AuditoriaClient auditoriaClient;
@@ -47,7 +47,7 @@ public class NotificacionService {
         }
 
         // 2. Persistencia real
-        Notificacion guardada = repository.save(logNotif);
+        Notificacion guardada = notificacionRepository.save(logNotif);
 
         // 3. Comunicación con auditoría mediante Feign
         auditoriaClient.registrarEvento(new LogAuditoriaDTO(

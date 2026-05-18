@@ -23,30 +23,11 @@ public class CitaController {
     @Autowired
     private CitaRepository citaRepository;
 
-    // ESTE ES EL BLOQUE QUE TE FALTABA: Inyecta datos en Oracle al arrancar
-    @PostConstruct
-    public void cargarDataDemo() {
-        if (citaRepository.count() == 0) {
-            Cita citaDemo = new Cita();
-            citaDemo.setPacienteRut("12345678-9");
-            citaDemo.setMedicoNombre("Dr. René Núñez");
-            citaDemo.setFechaHora(LocalDateTime.now().plusHours(2));
-
-            // Usamos "PROGRAMADA" que sí existe en tu Enum
-            citaDemo.setEstado(EstadoCita.PROGRAMADA);
-
-            citaRepository.save(citaDemo);
-            System.out.println("====== [NEXUSHEALTH] CITA INYECTADA EN ORACLE CLOUD ======");
-        }
-    }
-
-    // Endpoint que será consumido por ms-notificaciones para saber a quién escribirle
     @GetMapping("/proximas-24h")
     public ResponseEntity<List<Cita>> obtenerCitasParaNotificar() {
         return ResponseEntity.ok(service.obtenerCitasProximas24Horas());
     }
 
-    // Endpoint para actualizar el estado (usamos PATCH porque es una actualización parcial)
     @PatchMapping("/{id}/estado")
     public ResponseEntity<Cita> modificarEstadoCita(
             @PathVariable Long id,
