@@ -7,7 +7,7 @@ import lombok.Data;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name="AGENDA")
+@Table(name="CITAS")
 @Data
 public class Cita {
     @Id // Clave primaria

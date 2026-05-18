@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77bdf7d0-b2c1-4185-9626-a5b6fc88e1ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-agenda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-agenda/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auditoria/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auditoria/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auditoria/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auditoria/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-notificaciones/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-notificaciones/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-pacientes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/controller/CitaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/controller/CitaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/model/Cita.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/model/Cita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/service/CitaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/service/CitaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/controller/AlertaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/controller/AlertaController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +31,10 @@
     &quot;accountId&quot;: &quot;384e1d1f-5098-47e5-8968-62d061d4a0e8&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -60,30 +51,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.MsAgendaApplication.executor": "Run",
-    "Spring Boot.MsAuditoriaApplication.executor": "Run",
-    "Spring Boot.MsExamenesApplication.executor": "Run",
-    "Spring Boot.MsNotificacionesApplication.executor": "Run",
-    "Spring Boot.MsOrquestadorApplication.executor": "Run",
-    "Spring Boot.MsPacientesApplication.executor": "Run",
-    "git-widget-placeholder": "Alan__Vidal",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MsAgendaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsAuditoriaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsExamenesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsNotificacionesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsOrquestadorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsPacientesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Alan__Vidal&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -189,6 +180,7 @@
       <updated>1778977625991</updated>
       <workItem from="1778977628775" duration="572000" />
       <workItem from="1778978216495" duration="2111000" />
+      <workItem from="1779033473227" duration="4936000" />
     </task>
     <servers />
   </component>
