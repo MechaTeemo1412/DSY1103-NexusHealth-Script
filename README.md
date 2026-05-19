@@ -52,6 +52,15 @@ El ecosistema ha sido estabilizado en un conjunto de 6 microservicios independie
 
 ---
 
+## 📋 Prerrequisitos de Entorno
+Para levantar este ecosistema en un entorno local y realizar las pruebas de integración, asegúrese de contar con:
+* **Java Development Kit (JDK):** Versión 21 o superior.
+* **IDE Recomendado:** IntelliJ IDEA.
+* **Base de Datos:** Oracle Database (Local o Cloud) gestionada mediante SQL Developer.
+* **Pruebas de API:** Postman (para la ejecución manual y validaciones).
+
+---
+
 ## Cómo Ejecutar el Proyecto
 1. Clonar el repositorio: `git clone https://github.com/MechaTeemo1412/DSY1103-NexusHealth-Script.git`
 2. Configurar credenciales de Base de Datos en los archivos `application.properties` de cada microservicio.
