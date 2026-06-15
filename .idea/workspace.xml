@@ -6,25 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="77bdf7d0-b2c1-4185-9626-a5b6fc88e1ea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/controller/CitaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/controller/CitaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/service/CitaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/src/main/java/com/NexusHealth/ms_agenda/service/CitaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auditoria/src/main/java/com/NexusHealth/ms_auditoria/service/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auditoria/src/main/java/com/NexusHealth/ms_auditoria/service/LogService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/controller/ExamenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/controller/ExamenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/model/EstadoExamen.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/model/EstadoExamen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/service/ExamenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/service/ExamenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-notificaciones/src/main/java/com/NexusHealth/ms_notificaciones/model/EstadoEnvio.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/src/main/java/com/NexusHealth/ms_notificaciones/model/EstadoEnvio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-notificaciones/src/main/java/com/NexusHealth/ms_notificaciones/service/NotificacionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/src/main/java/com/NexusHealth/ms_notificaciones/service/NotificacionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-notificaciones/src/main/java/com/NexusHealth/ms_notificaciones/controller/NotificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/src/main/java/com/NexusHealth/ms_notificaciones/controller/NotificacionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/controller/AlertaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/controller/AlertaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/dto/NotificacionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/dto/NotificacionDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/controller/PacienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/model/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/model/Paciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/service/PacienteService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +54,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="3DpSft82Dt0F9jchT8mGPQqEH3f" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,6 +69,7 @@
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;Spring Boot.MsAgendaApplication.executor&quot;: &quot;Run&quot;,
@@ -79,12 +80,21 @@
     &quot;Spring Boot.MsPacientesApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Alan__Vidal&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Carlos/OneDrive/Desktop/DSY1103-NexusHealth-Script&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Carlos\OneDrive\Desktop\DSY1103-NexusHealth-Script\ms-agenda\src\main\java\com\NexusHealth\ms_agenda\config" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -111,8 +121,9 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MsPacientesApplication">
+  <component name="RunManager" selected="Spring Boot.MsAgendaApplication">
     <configuration name="MsAgendaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <module name="ms-agenda" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_agenda.MsAgendaApplication" />
       <method v="2">
@@ -203,10 +214,30 @@
       <workItem from="1778978216495" duration="2111000" />
       <workItem from="1779033473227" duration="4936000" />
       <workItem from="1779133886196" duration="6535000" />
+      <workItem from="1781115714863" duration="1269000" />
+      <workItem from="1781117004142" duration="1291000" />
+      <workItem from="1781118312136" duration="411000" />
+      <workItem from="1781118894231" duration="26000" />
+      <workItem from="1781118952758" duration="2000" />
+      <workItem from="1781118969343" duration="353000" />
+      <workItem from="1781119334179" duration="14000" />
+      <workItem from="1781119361854" duration="813000" />
+      <workItem from="1781472121133" duration="3310000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
