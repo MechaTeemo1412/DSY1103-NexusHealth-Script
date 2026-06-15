@@ -2,6 +2,7 @@ package com.NexusHealth.ms_auditoria.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -17,6 +18,7 @@ public class LogAuditoriaDTO {
     @NotBlank(message = "El estado de la acción es obligatorio")
     private String estado;
 
+    @Size(max = 50)
     private String detalle;
 
     @NotNull(message = "La fecha y hora del evento no pueden ser nulas")
