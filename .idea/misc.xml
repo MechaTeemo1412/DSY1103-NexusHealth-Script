@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/ms-pacientes/pom.xml" />
         <option value="$PROJECT_DIR$/ms-orquestador/pom.xml" />
         <option value="$PROJECT_DIR$/ms-notificaciones/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-gateway/pom.xml" />
       </list>
     </option>
   </component>

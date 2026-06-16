@@ -1,0 +1,32 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: ms-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: route-pacientes
+          uri: http://ms-pacientes:8081
+          predicates:
+            - Path=/api/v1/pacientes/**
+        - id: route-agenda
+          uri: http://ms-agenda:8082
+          predicates:
+            - Path=/api/v1/agenda/**
+        - id: route-examenes
+          uri: http://ms-examenes:8083
+          predicates:
+            - Path=/api/v1/examenes/**
+        - id: route-notificaciones
+          uri: http://ms-notificaciones:8084
+          predicates:
+            - Path=/api/v1/notificaciones/**
+        - id: route-auditoria
+          uri: http://ms-auditoria:8085
+          predicates:
+            - Path=/api/v1/auditoria/**
+        - id: route-orquestador
+          uri: http://ms-orquestador:8086
+          predicates:
+            - Path=/api/v1/alertas/**

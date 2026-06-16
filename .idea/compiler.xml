@@ -8,11 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ms-agenda" />
-        <module name="ms-pacientes" />
         <module name="ms-examenes" />
-        <module name="ms-orquestador" />
         <module name="ms-notificaciones" />
+        <module name="ms-pacientes" />
+        <module name="ms-orquestador" />
         <module name="ms-auditoria" />
+        <module name="ms-gateway" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +22,7 @@
       <module name="ms-agenda" options="-parameters" />
       <module name="ms-auditoria" options="-parameters" />
       <module name="ms-examenes" options="-parameters" />
+      <module name="ms-gateway" options="-parameters" />
       <module name="ms-notificaciones" options="-parameters" />
       <module name="ms-orquestador" options="-parameters" />
       <module name="ms-pacientes" options="-parameters" />
