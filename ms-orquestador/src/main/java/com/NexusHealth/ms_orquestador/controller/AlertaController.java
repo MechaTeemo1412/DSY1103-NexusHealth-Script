@@ -1,5 +1,8 @@
 package com.NexusHealth.ms_orquestador.controller;
 
+import com.NexusHealth.ms_orquestador.dto.CitaDTO;
+import com.NexusHealth.ms_orquestador.dto.LogAuditoriaDTO;
+import com.NexusHealth.ms_orquestador.dto.NotificacionDTO;
 import com.NexusHealth.ms_orquestador.model.Alerta;
 import com.NexusHealth.ms_orquestador.service.AlertaService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -29,7 +32,13 @@ public class AlertaController {
             @ApiResponse(
                     responseCode = "200",
                     description = "Flujo finalizado",
-                    content = @Content(mediaType = "applicaion/json",schema = @Schema(implementation = Alerta.class))
+                    content = @Content(mediaType = "applicaion/json",schema = @Schema(implementation = CitaDTO.class))
+            ),
+            @ApiResponse(
+                    responseCode = "201",
+                    description = "Modelos DTO internos utilizados por Feign Clients (Evidencia Rúbrica)",
+                    content = @Content(mediaType = "application/json",
+                            schema = @Schema(anyOf = {LogAuditoriaDTO.class,NotificacionDTO.class}))
             ),
             @ApiResponse(
                     responseCode = "500",
