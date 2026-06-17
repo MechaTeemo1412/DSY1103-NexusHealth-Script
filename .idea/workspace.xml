@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77bdf7d0-b2c1-4185-9626-a5b6fc88e1ea" name="Changes" comment="">
+    <list default="true" id="e51b89ad-e4f0-4a1d-8444-954c63dac800" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/controller/ExamenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/java/com/NexusHealth/ms_examenes/controller/ExamenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-notificaciones/src/main/java/com/NexusHealth/ms_notificaciones/controller/NotificacionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/src/main/java/com/NexusHealth/ms_notificaciones/controller/NotificacionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auditoria/src/main/java/com/NexusHealth/ms_auditoria/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auditoria/src/main/java/com/NexusHealth/ms_auditoria/controller/LogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/controller/AlertaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/controller/AlertaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/dto/LogAuditoriaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/dto/LogAuditoriaDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/dto/NotificacionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/dto/NotificacionDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/controller/PacienteController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,22 +30,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;MechaTeemo1412&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MechaTeemo1412"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MechaTeemo1412/DSY1103-NexusHealth-Script.git&quot;,
-    &quot;accountId&quot;: &quot;384e1d1f-5098-47e5-8968-62d061d4a0e8&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MechaTeemo1412/DSY1103-NexusHealth-Script.git",
+    "accountId": "384e1d1f-5098-47e5-8968-62d061d4a0e8"
   }
-}</component>
-  <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -49,52 +53,34 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="3DpSft82Dt0F9jchT8mGPQqEH3f" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="3FF76wbchhIcwYYttXoyd0UbSXI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.MsAgendaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsAuditoriaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsExamenesApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsNotificacionesApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsOrquestadorApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MsPacientesApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Alan__Vidal&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Carlos/OneDrive/Desktop/DSY1103-NexusHealth-Script&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.MsGatewayApplication.executor": "Run",
+    "git-widget-placeholder": "Alan__Vidal",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Carlos\OneDrive\Desktop\DSY1103-NexusHealth-Script\ms-agenda\src\main\java\com\NexusHealth\ms_agenda\config" />
-    </key>
-  </component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -104,26 +90,37 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="MsAgendaApplication" />
+              <option value="MsAuditoriaApplication" />
+              <option value="MsExamenesApplication" />
+              <option value="MsGatewayApplication" />
+              <option value="MsNotificacionesApplication" />
+              <option value="MsOrquestadorApplication" />
+              <option value="MsPacientesApplication" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="configurationStatuses">
       <map>
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
-              <entry key="MsAgendaApplication" value="STOPPED" />
-              <entry key="MsAuditoriaApplication" value="STOPPED" />
-              <entry key="MsExamenesApplication" value="STOPPED" />
-              <entry key="MsNotificacionesApplication" value="STOPPED" />
-              <entry key="MsOrquestadorApplication" value="STOPPED" />
-              <entry key="MsPacientesApplication" value="STOPPED" />
+              <entry key="MsGatewayApplication" value="FAILED" />
             </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MsAgendaApplication">
+  <component name="RunManager" selected="Spring Boot.MsGatewayApplication">
     <configuration name="MsAgendaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <module name="ms-agenda" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_agenda.MsAgendaApplication" />
       <method v="2">
@@ -131,69 +128,47 @@
       </method>
     </configuration>
     <configuration name="MsAuditoriaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ms-auditoria" />
+      <module name="ms-agenda (2)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_auditoria.MsAuditoriaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MsExamenesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ms-examenes" />
+    <configuration name="MsExamenesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms-agenda (1)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_examenes.MsExamenesApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.NexusHealth.ms_examenes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_gateway.MsGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MsNotificacionesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ms-notificaciones" />
+      <module name="ms-agenda (5)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_notificaciones.MsNotificacionesApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MsOrquestadorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ms-orquestador" />
+      <module name="ms-agenda (4)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_orquestador.MsOrquestadorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MsPacientesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ms-pacientes" />
-      <selectedOptions>
-        <option name="environmentVariables" />
-      </selectedOptions>
+    <configuration name="MsPacientesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms-agenda (3)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_pacientes.MsPacientesApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.NexusHealth.ms_pacientes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.MsAgendaApplication" />
-      <item itemvalue="Spring Boot.MsAuditoriaApplication" />
-      <item itemvalue="Spring Boot.MsNotificacionesApplication" />
-      <item itemvalue="Spring Boot.MsOrquestadorApplication" />
-      <item itemvalue="Spring Boot.MsExamenesApplication" />
-      <item itemvalue="Spring Boot.MsPacientesApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.MsPacientesApplication" />
-        <item itemvalue="Spring Boot.MsExamenesApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -205,39 +180,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="77bdf7d0-b2c1-4185-9626-a5b6fc88e1ea" name="Changes" comment="" />
-      <created>1778977625991</created>
+      <changelist id="e51b89ad-e4f0-4a1d-8444-954c63dac800" name="Changes" comment="" />
+      <created>1781658793628</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1778977625991</updated>
-      <workItem from="1778977628775" duration="572000" />
-      <workItem from="1778978216495" duration="2111000" />
-      <workItem from="1779033473227" duration="4936000" />
-      <workItem from="1779133886196" duration="6535000" />
-      <workItem from="1781115714863" duration="1269000" />
-      <workItem from="1781117004142" duration="1291000" />
-      <workItem from="1781118312136" duration="411000" />
-      <workItem from="1781118894231" duration="26000" />
-      <workItem from="1781118952758" duration="2000" />
-      <workItem from="1781118969343" duration="353000" />
-      <workItem from="1781119334179" duration="14000" />
-      <workItem from="1781119361854" duration="813000" />
-      <workItem from="1781472121133" duration="3310000" />
+      <updated>1781658793628</updated>
+      <workItem from="1781658795636" duration="760000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
