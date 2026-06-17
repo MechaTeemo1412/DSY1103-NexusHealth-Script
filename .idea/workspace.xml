@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77bdf7d0-b2c1-4185-9626-a5b6fc88e1ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-agenda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-agenda/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-agenda/src/test/java/com/Duoc/ms_agenda/MsAgendaApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-auditoria/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auditoria/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auditoria/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auditoria/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auditoria/src/test/java/com/Duoc/ms_auditoria/MsAuditoriaApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-examenes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-examenes/src/test/java/com/Duoc/ms_examenes/MsExamenesApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-notificaciones/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-notificaciones/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-orquestador/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-orquestador/src/test/java/com/Duoc/ms_orquestador/MsOrquestadorApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-pacientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-pacientes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pacientes/src/test/java/com/Duoc/ms_pacientes/MsPacientesApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,35 +69,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.MsAgendaApplication.executor": "Run",
-    "Spring Boot.MsAuditoriaApplication.executor": "Run",
-    "Spring Boot.MsExamenesApplication.executor": "Run",
-    "Spring Boot.MsNotificacionesApplication.executor": "Run",
-    "Spring Boot.MsOrquestadorApplication.executor": "Run",
-    "Spring Boot.MsPacientesApplication.executor": "Run",
-    "git-widget-placeholder": "David__Soto",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/david/Desktop/DSY1103-NexusHealth-Script/ms-pacientes",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MsAgendaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsAuditoriaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsExamenesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsNotificacionesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsOrquestadorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsPacientesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;David__Soto&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/Desktop/DSY1103-NexusHealth-Script/ms-pacientes&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\david\Desktop\DSY1103-NexusHealth-Script\ms-pacientes" />
@@ -121,6 +118,21 @@
         <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
+    </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="MsAuditoriaApplication" />
+              <option value="MsExamenesApplication" />
+              <option value="MsNotificacionesApplication" />
+              <option value="MsOrquestadorApplication" />
+              <option value="MsPacientesApplication" />
+            </set>
+          </value>
+        </entry>
+      </map>
     </option>
     <option name="configurationStatuses">
       <map>
@@ -143,6 +155,9 @@
     <configuration name="MsAgendaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <module name="ms-agenda" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.NexusHealth.ms_agenda.MsAgendaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,7 +232,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
