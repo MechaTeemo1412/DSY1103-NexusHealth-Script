@@ -1,0 +1,12 @@
+nexushealthdb_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g42a6f0aa134c49_nexushealthdb_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+nexushealthdb_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g42a6f0aa134c49_nexushealthdb_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+nexushealthdb_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g42a6f0aa134c49_nexushealthdb_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+nexushealthdb_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g42a6f0aa134c49_nexushealthdb_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+nexushealthdb_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g42a6f0aa134c49_nexushealthdb_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+
