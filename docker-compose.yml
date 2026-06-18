@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  ms-gateway:
+    build: ./ms-gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - ms-pacientes
+      - ms-agenda
+      - ms-examenes
+      - ms-notificaciones
+      - ms-auditoria
+
+  ms-pacientes:
+    build: ./ms-pacientes
+    ports:
+      - "8081:8081"
+    environment:
+      - RUTA_WALLET=/wallet
+
+  ms-agenda:
+    build: ./ms-agenda
+    ports:
+      - "8082:8082"
+    environment:
+      - RUTA_WALLET=/wallet
+
+  ms-examenes:
+    build: ./ms-examenes
+    ports:
+      - "8083:8083"
+    environment:
+      - RUTA_WALLET=/wallet
+
+  ms-notificaciones:
+    build: ./ms-notificaciones
+    ports:
+      - "8084:8084"
+    environment:
+      - RUTA_WALLET=/wallet
+
+  ms-auditoria:
+    build: ./ms-auditoria
+    ports:
+      - "8085:8085"
+    environment:
+      - RUTA_WALLET=/wallet
+
+  ms-orquestador:
+    build: ./ms-orquestador
+    ports:
+      - "8086:8086"
+    environment:
+      - RUTA_WALLET=/wallet
