@@ -7,10 +7,10 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.2.5</version> <relativePath/> </parent>
 	<groupId>com.NexusHealth</groupId>
-	<artifactId>ms-agenda</artifactId>
+	<artifactId>ms-notificaciones</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ms-agenda</name>
-	<description>Microservicio de Agenda</description>
+	<name>ms-notificaciones</name>
+	<description>Microservicio de notificaciones</description>
 
 	<properties>
 		<java.version>21</java.version>
