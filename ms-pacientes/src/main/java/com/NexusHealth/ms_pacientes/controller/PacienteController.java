@@ -1,5 +1,6 @@
 package com.NexusHealth.ms_pacientes.controller;
 
+import com.NexusHealth.ms_pacientes.dto.PacienteDTO;
 import com.NexusHealth.ms_pacientes.model.Paciente;
 import com.NexusHealth.ms_pacientes.service.PacienteService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -31,7 +32,7 @@ public class PacienteController {
             @ApiResponse(
                     responseCode = "200",
                     description = "Lista de pacientes encontrados",
-                    content = @Content(mediaType = "application/json",schema=@Schema(implementation = Paciente.class))
+                    content = @Content(mediaType = "application/json",schema=@Schema(implementation = PacienteDTO.class))
             ),
             @ApiResponse(
                     responseCode = "404",

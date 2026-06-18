@@ -1,32 +1,50 @@
 server:
   port: 8080
+
 spring:
   application:
     name: ms-gateway
   cloud:
+    # 1. Apagamos el verificador estricto de versiones para que no bloquee el arranque
+    compatibility-verifier:
+      enabled: false
     gateway:
-      routes:
-        - id: route-pacientes
-          uri: http://ms-pacientes:8081
-          predicates:
-            - Path=/api/v1/pacientes/**
-        - id: route-agenda
-          uri: http://ms-agenda:8082
-          predicates:
-            - Path=/api/v1/agenda/**
-        - id: route-examenes
-          uri: http://ms-examenes:8083
-          predicates:
-            - Path=/api/v1/examenes/**
-        - id: route-notificaciones
-          uri: http://ms-notificaciones:8084
-          predicates:
-            - Path=/api/v1/notificaciones/**
-        - id: route-auditoria
-          uri: http://ms-auditoria:8085
-          predicates:
-            - Path=/api/v1/auditoria/**
-        - id: route-orquestador
-          uri: http://ms-orquestador:8086
-          predicates:
-            - Path=/api/v1/alertas/**
+      # 2. Actualizamos a la nueva sintaxis exigida por WebFlux
+      server:
+        webflux:
+          routes:
+            # Microservicio de Pacientes
+            - id: ms-pacientes
+              uri: http://localhost:8081
+              predicates:
+                - Path=/api/v1/pacientes/**
+
+            # Microservicio de Agenda
+            - id: ms-agenda
+              uri: http://localhost:8082
+              predicates:
+                - Path=/api/v1/agenda/**
+
+            # Microservicio de Exámenes
+            - id: ms-examenes
+              uri: http://localhost:8083
+              predicates:
+                - Path=/api/v1/examenes/**
+
+            # Microservicio de Notificaciones
+            - id: ms-notificaciones
+              uri: http://localhost:8084
+              predicates:
+                - Path=/api/v1/notificaciones/**
+
+            # Microservicio de Auditoría
+            - id: ms-auditoria
+              uri: http://localhost:8085
+              predicates:
+                - Path=/api/v1/auditoria/**
+
+            # Microservicio Orquestador
+            - id: ms-orquestador
+              uri: http://localhost:8086
+              predicates:
+                - Path=/api/v1/alertas/**

@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77bdf7d0-b2c1-4185-9626-a5b6fc88e1ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ms-auditoria/src/main/java/com/NexusHealth/ms_auditoria/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-gateway/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-gateway/src/main/java/com/NexusHealth/ms_gateway/filter/LoggingGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-gateway/src/test/java/com/NexusHealth/ms_gateway/MsGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-agenda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-agenda/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-agenda/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-agenda/src/test/java/com/Duoc/ms_agenda/MsAgendaApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auditoria/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auditoria/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auditoria/src/test/java/com/Duoc/ms_auditoria/MsAuditoriaApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-examenes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-examenes/src/test/java/com/Duoc/ms_examenes/MsExamenesApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-notificaciones/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notificaciones/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-orquestador/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-orquestador/src/test/java/com/Duoc/ms_orquestador/MsOrquestadorApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-pacientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-pacientes/src/test/java/com/Duoc/ms_pacientes/MsPacientesApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auditoria/src/main/java/com/NexusHealth/ms_auditoria/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auditoria/src/main/java/com/NexusHealth/ms_auditoria/controller/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gateway/src/main/java/com/NexusHealth/ms_gateway/MsGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gateway/src/main/java/com/NexusHealth/ms_gateway/MsGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gateway/target/classes/com/NexusHealth/ms_gateway/MsGatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gateway/target/classes/com/NexusHealth/ms_gateway/MsGatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/controller/AlertaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/controller/AlertaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/dto/LogAuditoriaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/dto/LogAuditoriaDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/dto/NotificacionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orquestador/src/main/java/com/NexusHealth/ms_orquestador/dto/NotificacionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-pacientes/src/main/java/com/NexusHealth/ms_pacientes/controller/PacienteController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +93,7 @@
     &quot;Spring Boot.MsNotificacionesApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.MsOrquestadorApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.MsPacientesApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;David__Soto&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging David__Soto&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/david/Desktop/DSY1103-NexusHealth-Script/ms-pacientes&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -118,21 +125,6 @@
         <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
-    </option>
-    <option name="hiddenConfigurations">
-      <map>
-        <entry key="SpringBootApplicationConfigurationType">
-          <value>
-            <set>
-              <option value="MsAuditoriaApplication" />
-              <option value="MsExamenesApplication" />
-              <option value="MsNotificacionesApplication" />
-              <option value="MsOrquestadorApplication" />
-              <option value="MsPacientesApplication" />
-            </set>
-          </value>
-        </entry>
-      </map>
     </option>
     <option name="configurationStatuses">
       <map>

@@ -5,14 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ms-agenda/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/ms-examenes/pom.xml" />
         <option value="$PROJECT_DIR$/ms-auditoria/pom.xml" />
         <option value="$PROJECT_DIR$/ms-pacientes/pom.xml" />
         <option value="$PROJECT_DIR$/ms-orquestador/pom.xml" />
         <option value="$PROJECT_DIR$/ms-notificaciones/pom.xml" />
-        <option value="$PROJECT_DIR$/ms-gateway/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="24" project-jdk-type="JavaSDK" />
 </project>
