@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ms-agenda/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/ms-examenes/pom.xml" />
         <option value="$PROJECT_DIR$/ms-auditoria/pom.xml" />
         <option value="$PROJECT_DIR$/ms-pacientes/pom.xml" />
