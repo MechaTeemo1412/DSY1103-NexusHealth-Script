@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/v1/pacientes")
+@RequestMapping("/api/v1/pacientes")
 @Tag(name = "Pacientes",description = "Endspoints para conultar y validación de pacientes")
 public class PacienteController {
     @Autowired // Conecta el controlador con la capa de servicio
