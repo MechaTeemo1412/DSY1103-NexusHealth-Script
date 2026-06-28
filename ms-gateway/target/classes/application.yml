@@ -11,7 +11,7 @@ spring:
           uri: http://ms-pacientes:8081
           predicates:
             - Path=/api/v1/pacientes/**
-
+            
         - id: ms-agenda
           uri: http://ms-agenda:8082
           predicates:

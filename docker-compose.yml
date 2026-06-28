@@ -2,54 +2,99 @@ version: '3.8'
 
 services:
   ms-gateway:
-    build: ./ms-gateway
+    build:
+      context: ./ms-gateway
+    container_name: ms-gateway
     ports:
       - "8080:8080"
+    networks:
+      - nexus-network
     depends_on:
       - ms-pacientes
       - ms-agenda
       - ms-examenes
       - ms-notificaciones
       - ms-auditoria
+      - ms-orquestador
 
   ms-pacientes:
-    build: ./ms-pacientes
+    build:
+      context: ./ms-pacientes
+    container_name: ms-pacientes
     ports:
       - "8081:8081"
     environment:
-      - RUTA_WALLET=/wallet
+      - RUTA_WALLET=/app/wallet
+    volumes:
+      - "C:/Users/Carlos/OneDrive/Desktop/Wallet_nexushealthdb:/app/wallet"
+    networks:
+      - nexus-network
 
   ms-agenda:
-    build: ./ms-agenda
+    build:
+      context: ./ms-agenda
+    container_name: ms-agenda
     ports:
       - "8082:8082"
     environment:
-      - RUTA_WALLET=/wallet
+      - RUTA_WALLET=/app/wallet
+    volumes:
+      - "C:/Users/Carlos/OneDrive/Desktop/Wallet_nexushealthdb:/app/wallet"
+    networks:
+      - nexus-network
 
   ms-examenes:
-    build: ./ms-examenes
+    build:
+      context: ./ms-examenes
+    container_name: ms-examenes
     ports:
       - "8083:8083"
     environment:
-      - RUTA_WALLET=/wallet
+      - RUTA_WALLET=/app/wallet
+    volumes:
+      - "C:/Users/Carlos/OneDrive/Desktop/Wallet_nexushealthdb:/app/wallet"
+    networks:
+      - nexus-network
 
   ms-notificaciones:
-    build: ./ms-notificaciones
+    build:
+      context: ./ms-notificaciones
+    container_name: ms-notificaciones
     ports:
       - "8084:8084"
     environment:
-      - RUTA_WALLET=/wallet
+      - RUTA_WALLET=/app/wallet
+    volumes:
+      - "C:/Users/Carlos/OneDrive/Desktop/Wallet_nexushealthdb:/app/wallet"
+    networks:
+      - nexus-network
 
   ms-auditoria:
-    build: ./ms-auditoria
+    build:
+      context: ./ms-auditoria
+    container_name: ms-auditoria
     ports:
       - "8085:8085"
     environment:
-      - RUTA_WALLET=/wallet
+      - RUTA_WALLET=/app/wallet
+    volumes:
+      - "C:/Users/Carlos/OneDrive/Desktop/Wallet_nexushealthdb:/app/wallet"
+    networks:
+      - nexus-network
 
   ms-orquestador:
-    build: ./ms-orquestador
+    build:
+      context: ./ms-orquestador
+    container_name: ms-orquestador
     ports:
       - "8086:8086"
     environment:
-      - RUTA_WALLET=/wallet
+      - RUTA_WALLET=/app/wallet
+    volumes:
+      - "C:/Users/Carlos/OneDrive/Desktop/Wallet_nexushealthdb:/app/wallet"
+    networks:
+      - nexus-network
+
+networks:
+  nexus-network:
+    driver: bridge
