@@ -5,34 +5,34 @@ spring:
   application:
     name: ms-gateway
   cloud:
-    gateway:  # <-- La jerarquía correcta es esta
+    gateway:
       routes:
         - id: ms-pacientes
-          uri: http://localhost:8081
+          uri: http://ms-pacientes:8081
           predicates:
             - Path=/api/v1/pacientes/**
-
+            
         - id: ms-agenda
-          uri: http://localhost:8082
+          uri: http://ms-agenda:8082
           predicates:
             - Path=/api/v1/agenda/**
 
         - id: ms-examenes
-          uri: http://localhost:8083
+          uri: http://ms-examenes:8083
           predicates:
             - Path=/api/v1/examenes/**
 
         - id: ms-notificaciones
-          uri: http://localhost:8084
+          uri: http://ms-notificaciones:8084
           predicates:
             - Path=/api/v1/notificaciones/**
 
         - id: ms-auditoria
-          uri: http://localhost:8085
+          uri: http://ms-auditoria:8085
           predicates:
             - Path=/api/v1/auditoria/**
 
         - id: ms-orquestador
-          uri: http://localhost:8086
+          uri: http://ms-orquestador:8086
           predicates:
             - Path=/api/v1/alertas/**
