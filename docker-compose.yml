@@ -27,7 +27,7 @@ services:
       - RUTA_WALLET=/app/wallet
       - AUDITORIA_URL=http://ms-auditoria:8085/api/v1/auditoria
     volumes:
-      - "C:/Users/Carlos/OneDrive/Desktop/Wallet_nexushealthdb:/app/wallet"
+      - "${WALLET_PATH}:/app/wallet"
     networks:
       - nexus-network
 
@@ -41,7 +41,7 @@ services:
       - RUTA_WALLET=/app/wallet
       - AUDITORIA_URL=http://ms-auditoria:8085/api/v1/auditoria
     volumes:
-      - "C:/Users/Carlos/OneDrive/Desktop/Wallet_nexushealthdb:/app/wallet"
+      - "${WALLET_PATH}:/app/wallet"
     networks:
       - nexus-network
 
@@ -55,7 +55,7 @@ services:
       - RUTA_WALLET=/app/wallet
       - AUDITORIA_URL=http://ms-auditoria:8085/api/v1/auditoria
     volumes:
-      - "C:/Users/Carlos/OneDrive/Desktop/Wallet_nexushealthdb:/app/wallet"
+      - "${WALLET_PATH}:/app/wallet"
     networks:
       - nexus-network
 
@@ -69,7 +69,7 @@ services:
       - RUTA_WALLET=/app/wallet
       - AUDITORIA_URL=http://ms-auditoria:8085/api/v1/auditoria
     volumes:
-      - "C:/Users/Carlos/OneDrive/Desktop/Wallet_nexushealthdb:/app/wallet"
+      - "${WALLET_PATH}:/app/wallet"
     networks:
       - nexus-network
 
@@ -82,7 +82,7 @@ services:
     environment:
       - RUTA_WALLET=/app/wallet
     volumes:
-      - "C:/Users/Carlos/OneDrive/Desktop/Wallet_nexushealthdb:/app/wallet"
+      - "${WALLET_PATH}:/app/wallet"
     networks:
       - nexus-network
 
@@ -96,7 +96,7 @@ services:
       - RUTA_WALLET=/app/wallet
       - AUDITORIA_URL=http://ms-auditoria:8085/api/v1/auditoria
     volumes:
-      - "C:/Users/Carlos/OneDrive/Desktop/Wallet_nexushealthdb:/app/wallet"
+      - "${WALLET_PATH}:/app/wallet"
     networks:
       - nexus-network
 
