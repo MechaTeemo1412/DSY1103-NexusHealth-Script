@@ -1,37 +1,58 @@
+# ===================================================================
+# CONFIGURACIÓN DEL API GATEWAY RECOLECTOR - ECOSISTEMA NEXUSHEALTH
+# ===================================================================
+# Responsabilidad: Actúa como Proxy Reverso Único de entrada (Puerto 8080).
+# Patrón de Diseño: API Gateway Pattern (Oculta la topología de la red interna).
+# Enfoque Arquitectónico: Basado en Spring Cloud Gateway Reactivo (WebFlux).
+# ===================================================================
 server:
-  port: 8080
+  port: 8080 # Puerto público unificado que expone la arquitectura al Frontend / Postman
 
 spring:
   application:
-    name: ms-gateway
+    name: ms-gateway # Identificador único del componente en el ecosistema de microservicios
   cloud:
     gateway:
+      # Definición de la matriz de enrutamiento dinámico interceptor
       routes:
+      # -----------------------------------------------------------
+        # ROUTA 1: MÓDULO DE GESTIÓN DE PACIENTES
+      # -----------------------------------------------------------
         - id: ms-pacientes
           uri: http://ms-pacientes:8081
           predicates:
             - Path=/api/v1/pacientes/**
-            
+      # -----------------------------------------------------------
+        # ROUTA 2: MÓDULO DE AGENDA CLÍNICA
+      # -----------------------------------------------------------
         - id: ms-agenda
           uri: http://ms-agenda:8082
           predicates:
             - Path=/api/v1/agenda/**
-
+      # -----------------------------------------------------------
+        # ROUTA 3: MÓDULO DE EXAMENES CLÍNICOS
+      # -----------------------------------------------------------
         - id: ms-examenes
           uri: http://ms-examenes:8083
           predicates:
             - Path=/api/v1/examenes/**
-
+      # -----------------------------------------------------------
+        # ROUTA 4: MÓDULO DE MENSAGERÍA Y NOTIFICACIONES (WHATSAPP/SMS)
+      # -----------------------------------------------------------
         - id: ms-notificaciones
           uri: http://ms-notificaciones:8084
           predicates:
             - Path=/api/v1/notificaciones/**
-
+      # -----------------------------------------------------------
+        # ROUTA 5: MÓDULO DE AUDITORÍA TRANSACCIONAL Y SEGURIDAD
+      # -----------------------------------------------------------
         - id: ms-auditoria
           uri: http://ms-auditoria:8085
           predicates:
             - Path=/api/v1/auditoria/**
-
+      # -----------------------------------------------------------
+        # ROUTA 6: CEREBRO CENTRAL - ORQUESTADOR DE PROCESOS DIARIOS
+      # -----------------------------------------------------------
         - id: ms-orquestador
           uri: http://ms-orquestador:8086
           predicates:

@@ -12,15 +12,49 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-
+/**
+ * Servicio principal del microservicio de Exámenes (ms-examenes).
+ * <p>
+ * Representa la capa de lógica de negocio (Service Layer) encargada de gestionar 
+ * el ciclo de vida y las transiciones de estado de las órdenes de exámenes médicos. 
+ * Implementa reglas de negocio condicionales e interactúa de forma síncrona con el 
+ * microservicio de auditoría a través de clientes Feign para garantizar la 
+ * trazabilidad de cada actualización clínica.
+ * </p>
+ *
+ * @author Equipo Desarrollo NexusHealth
+ * @version 1.0
+ * @since 2026-05-18
+ */
 @Service
 @Slf4j
 public class ExamenService {
+    /**
+     * Repositorio JPA para la persistencia y recuperación de datos de exámenes 
+     * en la base de datos Oracle Cloud.
+     */
     @Autowired
     private ExamenRepository examenRepository;
-
+    /**
+     * Cliente HTTP declarativo (OpenFeign) utilizado para reportar eventos 
+     * transaccionales y cambios de estado críticos al servicio central de auditoría.
+     */
     @Autowired
     private AuditoriaClient auditoriaClient;
+    /**
+     * Actualiza el estado clínico de un examen médico y despacha los eventos de auditoría correspondientes.
+     * <p>
+     * Este método ejecuta una validación de regla de negocio: si el nuevo estado del examen 
+     * es {@code LISTO} (transición desde {@code PENDIENTE}), se clasifica como un evento crítico 
+     * que requiere notificación al paciente, generando un log de auditoría especializado. 
+     * Cualquier otra transición genera un log de actualización estándar.
+     * </p>
+     *
+     * @param idExamen Identificador único (Primary Key) del examen en la base de datos.
+     * @param dto Objeto de transferencia de datos (DTO) que encapsula el nuevo estado a aplicar.
+     * @return Examen La entidad actualizada tras ser persistida exitosamente.
+     * @throws RuntimeException Si no se encuentra ningún registro coincidente con el {@code idExamen} provisto.
+     */
 
     public Examen actualizarEstado(Long idExamen, EstadoExamenDTO dto) {
         log.info("Iniciando actualización de estado para el examen ID: {}", idExamen);
