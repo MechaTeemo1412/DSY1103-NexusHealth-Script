@@ -1,5 +1,5 @@
 package com.NexusHealth.ms_auditoria.service;
-
+import java.util.List;
 import com.NexusHealth.ms_auditoria.dto.LogAuditoriaDTO;
 import com.NexusHealth.ms_auditoria.model.Log;
 import com.NexusHealth.ms_auditoria.repository.LogRepository;
@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
+import java.util.List;
 /**
  * Servicio central del microservicio de Auditoría (ms-auditoria) de NexusHealth.
  * <p>
@@ -41,6 +42,9 @@ public class LogService {
      * @param dto El DTO que encapsula el origen del microservicio, la acción ejecutada, el estado final y el detalle técnico.
      * @return Log La entidad transaccional resultante tras consolidarse y persistirse en la base de datos.
      */
+    public List<Log> listarTodos() {
+    return logRepository.findAll();
+}
 
     public Log registrarEvento(LogAuditoriaDTO dto) {
         log.info("Recibiendo registro de auditoría desde: {}", dto.getMicroservicioOrigen());
